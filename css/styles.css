@@ -691,11 +691,10 @@ em {
 
 .product-visual-light img {
   width: 100%;
-  max-width: min(100%, 24rem);
+  max-width: none;
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  max-height: min(60svh, 30rem);
-  margin-inline: auto;
+  max-height: min(70svh, 36rem);
   display: block;
 }
 
