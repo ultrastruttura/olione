@@ -1,11 +1,16 @@
-# Scrape / research (not part of the live site; may embed third-party keys)
+# Research / scrape / local-only
 assets/original-site/
-
-# Local tooling / audits
 assets/mobile-audit/
+assets/photos/*-original.jpg
+assets/photos/original/
+
+# Tooling
+scripts/
 __pycache__/
 *.pyc
 .venv/
 venv/
 .env
 .env.*
+.DS_Store
+Thumbs.db
