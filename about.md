@@ -12,7 +12,7 @@ Olione è un olio extravergine di oliva del Sebino: italiano di categoria superi
 
 ## Territorio
 
-Sebino è il nome locale del Lago d'Iseo e della sua sponda olivicola. Le olive crescono su terrazzamenti con muri in pietra affacciati sul lago; il microclima accompagna la coltivazione. La raccolta avviene di solito nelle prime settimane di ottobre, con frangitura tempestiva al frantoio.
+Sebino è il nome locale del Lago d'Iseo e della sua sponda olivicola. Le olive crescono su terrazzamenti con muri in pietra affacciati sul lago: circa un centinaio di piante di circa cinquant'anni. Il microclima accompagna la coltivazione. La raccolta avviene di solito nelle prime settimane di ottobre, con frangitura tempestiva al frantoio.
 
 ## Prodotto
 
