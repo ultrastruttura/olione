@@ -1,0 +1,23 @@
+# Olione
+
+> Olio extravergine di oliva italiano prodotto a Predore, sul Lago d'Iseo (Sebino), da Carlo Duci. Bottiglia da 0,5 l, vendita diretta dal produttore con spedizione in tutta Italia.
+
+Olione nasce da olivicoltura sui terrazzamenti di Predore. Non è DOP né biologico certificato: è un extravergine italiano di categoria superiore, ottenuto direttamente dalle olive con soli procedimenti meccanici.
+
+## Pagine
+
+- [Sito](https://ultrastruttura.github.io/olione/): vetrina, prodotto, contatti e ordinazioni
+- [Scheda sintetica](https://ultrastruttura.github.io/olione/about.md): fatti chiave su prodotto, territorio e come ordinare
+
+## Contatti
+
+- Email: olioevopredore@gmail.com
+- Telefono: +39 320 379 7518
+- Indirizzo: Via San Michele 34, 24060 Foresto Sparso (BG)
+- Facebook: https://www.facebook.com/olioevopredore
+- Instagram: https://www.instagram.com/olioevopredore
+
+## Optional
+
+- [Sitemap](https://ultrastruttura.github.io/olione/sitemap.xml)
+- [Robots](https://ultrastruttura.github.io/olione/robots.txt)
