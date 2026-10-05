@@ -574,9 +574,11 @@ em {
 }
 
 .strip-art {
-  width: min(100%, 42rem);
+  width: min(100%, 46rem);
   margin: 0 auto 1.25rem;
   opacity: 0.92;
+  height: auto;
+  display: block;
 }
 
 .strip-script {
