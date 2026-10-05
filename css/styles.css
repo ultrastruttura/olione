@@ -198,14 +198,14 @@ em {
 }
 
 .logo-mark {
-  width: 0.85rem;
+  width: 1.05rem;
   height: auto;
   flex: 0 0 auto;
   display: block;
 }
 
 .logo-img {
-  width: calc(100% - 1.4rem);
+  width: calc(100% - 1.6rem);
   height: auto;
   display: block;
   transition: opacity 0.3s var(--ease);
@@ -213,10 +213,10 @@ em {
 
 .logo-img-dark {
   position: absolute;
-  left: calc(0.85rem + 0.55rem);
+  left: calc(1.05rem + 0.55rem);
   top: 50%;
   transform: translateY(-50%);
-  width: calc(100% - 1.4rem);
+  width: calc(100% - 1.6rem);
   opacity: 0;
 }
 
@@ -508,16 +508,16 @@ em {
   }
 
   .logo-mark {
-    width: 0.75rem;
+    width: 0.95rem;
   }
 
   .logo-img,
   .logo-img-dark {
-    width: calc(100% - 1.2rem);
+    width: calc(100% - 1.4rem);
   }
 
   .logo-img-dark {
-    left: calc(0.75rem + 0.45rem);
+    left: calc(0.95rem + 0.45rem);
   }
 
   .hero-scroll {
