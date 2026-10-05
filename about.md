@@ -2,21 +2,21 @@
 
 ## In breve
 
-Olione è un olio extravergine di oliva italiano di categoria superiore, prodotto da Carlo Duci a Predore, sul Lago d'Iseo (area del Sebino, provincia di Bergamo).
+Olione è un olio extravergine di oliva del Sebino: italiano di categoria superiore, prodotto da Carlo Duci a Predore, sul Lago d'Iseo (provincia di Bergamo).
 
 - Formato: bottiglia da 0,5 litri
-- Origine: terrazzamenti di Predore, Lago d'Iseo
+- Origine: terrazzamenti di Predore, Sebino / Lago d'Iseo
 - Vendita: diretta dal produttore
 - Spedizione: in tutta Italia
 - Certificazioni: nessuna DOP / biologico dichiarato
 
 ## Territorio
 
-Le olive crescono su terrazzamenti con muri in pietra affacciati sul lago. Il microclima del Sebino accompagna la coltivazione; la raccolta avviene di solito nelle prime settimane di ottobre, con frangitura tempestiva al frantoio.
+Sebino è il nome locale del Lago d'Iseo e della sua sponda olivicola. Le olive crescono su terrazzamenti con muri in pietra affacciati sul lago; il microclima accompagna la coltivazione. La raccolta avviene di solito nelle prime settimane di ottobre, con frangitura tempestiva al frantoio.
 
 ## Prodotto
 
-Ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici. Pensato per la tavola, legato alla campagna di raccolta dell'anno.
+Ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici. Pensato per la tavola, legato alla campagna di raccolta dell'anno. Chi cerca olio del Sebino trova qui un prodotto piccolo e territoriale, non industriale.
 
 ## Come ordinare
 
