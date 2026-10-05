@@ -1019,7 +1019,7 @@ em {
 }
 
 .footer-brand p,
-.footer-meta p {
+.footer-meta > p {
   margin: 0;
   font-size: 0.9rem;
 }
@@ -1028,11 +1028,13 @@ em {
   margin-top: 0.25rem;
 }
 
+.footer-meta {
+  text-align: right;
+  max-width: 28rem;
+}
+
 .footer-legal {
-  flex: 1 1 100%;
-  margin: 0.75rem 0 0;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  margin: 0.85rem 0 0;
   font-style: normal;
   font-size: 0.78rem;
   line-height: 1.55;
@@ -1055,6 +1057,13 @@ em {
 
 .footer-legal a:hover {
   color: #fff;
+}
+
+@media (max-width: 699px) {
+  .footer-meta {
+    text-align: left;
+    max-width: none;
+  }
 }
 
 /* Reveal on scroll — only when JS opts in, so content stays visible without JS */
