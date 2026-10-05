@@ -1,0 +1,310 @@
+﻿
+==== al-frantoio.html len=118157
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://11987040-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tDTU5OfXxnsbr8sqoCDMaMYv6WvoZg1ujJMHqWnz32DpQ4eE4OJSGmfeZp4nTDI2YKpNYz2Itgev7rExEonfym2gSfbdsDwiyB8zqyh2u1F7-UTzeYBu1hg5
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it - al frantoio
+  | Search this site
+  | Embedded Files
+  | olioevopredore.it
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | Pulizia e lavaggio
+  | Frangitura
+  | Gramolatura
+  | Estrazione
+  | Separazione e filtrazione
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== contatti.html len=117749
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://1548693651-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uIOWQUIMtQlrRF6XyjyFETdk0ivHWC-ptP6qW1eUzMz08CbudLLjJbHgnLIsbFmJloROYmGkeRaBWiMbqXQlrNwBlY9R5Np0FcJY8wuUu9dk8XNKw4NqJnEy
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it - contatti
+  | Search this site
+  | Embedded Files
+  | olioevopredore.it
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | olioevopredore@gmail.com
+  | phone +39 3203797518 Carlo
+  | olioevopredore
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== home-page.html len=118715
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://1145043645-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tUWyYl6Xe-usbKuA5GKLn-ecx0kTsmTL4HDq73o-rdhV_JuMdUkOT9YrApt1dLwEtF9GVLPyTCmSTlbs-Du5jucZNXU9uDmca1rBaGdDw8PY4rqH_eD5p_4A
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it
+  | Search this site
+  | Embedded Files
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | Carlo Duci
+  | olivicoltura
+  | l'extravergine fatto con passione
+  | #OLIOEVOPREDORE
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== home-raw.html len=118601
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://1260326312-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tUWyYl6Xe-usbKuA5GKLn-ecx0kTsmTL4HDq73o-rdhV_JuMdUkOT9YrApt1dLwEtF9GVLPyTCmSTlbs-Du5jucZNXU9uDmca1rBaGdDw8PY4rqH_eD5p_4A
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it
+  | Search this site
+  | Embedded Files
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | Carlo Duci
+  | olivicoltura
+  | l'extravergine fatto con passione
+  | #OLIOEVOPREDORE
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== i-nostri-prodotti.html len=117335
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://519742022-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vMtbxJv7DJuVVhuz5l43C2MX2rBYueS6Ftoij-LVIB2_uhdt1Qttrfq1lsEzAX_CVpivfvPSpNf-N8NLfAbiBnkiCfo1qvIkRKaTmpR5WBtaT2nou1PGhJ4M
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it - i nostri prodotti
+  | Search this site
+  | Embedded Files
+  | olioevopredore.it
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | olio extravergine
+  | di oliva di
+  | qualitÓ superiore
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== la-raccolta.html len=117477
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://63475366-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v9dhw4yXQE6dcKUZIC0u8nPpRXMQcTFdvc5m3ADIn2k-9lePxM_znKtLsdhG6QPeFoxIWx4cJlIOKD_ufy_GvkQvfUv0V64r4TyVagQav6oKf2q-jtxStmqA
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it - la raccolta
+  | Search this site
+  | Embedded Files
+  | olioevopredore.it
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | raccogliamo olive nelle prime settimane di ottobre. Dopo la raccolta, ogni sera, le portiamo al frantoio per la frangitura e l'estrazione dell'olio
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== luliveto.html len=117121
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://1245523186-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tfAPGfgLwzQhWrJjtj1ko6LF9IE4OF2OmluykylnfAAvN1GwoFPpDSJqGJ6GrrxTnigpN6qD3tVh0SHzyOCUH5Dlx54VBJr6TS6s_gZRimmIoUFVRx0UDOkA
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it - l'uliveto
+  | Search this site
+  | Embedded Files
+  | olioevopredore.it
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | coltiviamo olive su terrazzamenti, sostenuti da antichi muri in pietra, affacciati sul lago d'Iseo, nel Comune di Predore
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
+
+==== root.html len=118717
+  googleusercontent: 4
+  drive\.google: 2
+  docs\.google: 1
+  sites\.google: 4
+  www\.gstatic: 4
+ interesting urls 8
+   http://schema.org/WebPage
+   https://1994125181-atari-embeds.googleusercontent.com/embeds/4ecafecc1008f433734df9cfcf919023/inner-frame-minified.html
+   https://drive.google.com
+   https://drive.google.com/viewer/main
+   https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tUWyYl6Xe-usbKuA5GKLn-ecx0kTsmTL4HDq73o-rdhV_JuMdUkOT9YrApt1dLwEtF9GVLPyTCmSTlbs-Du5jucZNXU9uDmca1rBaGdDw8PY4rqH_eD5p_4A
+   https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}.O13XJf
+   https://uberproxy-pen-redirect.corp.google.com/uberproxy/pen?url=
+   https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico
+ src attrs 2
+   https://apis.google.com/js/client.js?onload=gapiLoaded
+   https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.u_TZfKGuJ2I.O/am=QAAAGAAI/d=1/rs=AGEqA5nMlPj01vsBijTgMJEKR5e5VUCJkA/m=view
+ CONTENT:
+  | olioevopredore.it
+  | Search this site
+  | Embedded Files
+  | Home page
+  | l'uliveto
+  | la raccolta
+  | al frantoio
+  | i nostri prodotti
+  | contatti
+  | More
+  | Carlo Duci
+  | olivicoltura
+  | l'extravergine fatto con passione
+  | #OLIOEVOPREDORE
+  | Report abuse
+  | Page details
+  | Page updated
+  | Learn more
+  | Got it
