@@ -1,0 +1,11 @@
+# Scrape / research (not part of the live site; may embed third-party keys)
+assets/original-site/
+
+# Local tooling / audits
+assets/mobile-audit/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
