@@ -2,6 +2,7 @@
   document.documentElement.classList.add("js");
 
   const header = document.querySelector("[data-header]");
+  const hero = document.querySelector(".hero");
   const toggle = document.querySelector("[data-nav-toggle]");
   const mobileNav = document.querySelector("[data-mobile-nav]");
   const year = document.querySelector("[data-year]");
@@ -20,11 +21,16 @@
 
   const onScroll = () => {
     if (!header) return;
-    header.classList.toggle("is-scrolled", window.scrollY > 24);
+    // Stay transparent over the hero; solid only after leaving the photo.
+    const pastHero = hero
+      ? hero.getBoundingClientRect().bottom <= header.offsetHeight
+      : window.scrollY > 24;
+    header.classList.toggle("is-scrolled", pastHero);
   };
 
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
 
   if (toggle && mobileNav) {
     toggle.addEventListener("click", () => {
