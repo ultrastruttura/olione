@@ -624,12 +624,13 @@ em {
 
 .section-figure-portrait img {
   width: 100%;
-  max-width: 100%;
+  max-width: min(100%, 26rem);
   height: auto;
   aspect-ratio: auto;
   object-fit: cover;
   object-position: center center;
   display: block;
+  margin-inline: auto;
 }
 
 .section-figure figcaption {
