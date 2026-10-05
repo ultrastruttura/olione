@@ -954,6 +954,39 @@ em {
   margin-top: 0.5rem;
 }
 
+.contact-form .btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.contact-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.contact-status {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.contact-status[data-state="success"] {
+  color: #2f5d3a;
+}
+
+.contact-status[data-state="error"] {
+  color: #8a2f2f;
+}
+
+.contact-status[data-state="pending"] {
+  color: var(--ink-soft);
+}
+
 @media (min-width: 900px) {
   .contact-inner {
     grid-template-columns: 1fr 1fr;
@@ -993,6 +1026,35 @@ em {
 
 .footer-brand p + p {
   margin-top: 0.25rem;
+}
+
+.footer-legal {
+  flex: 1 1 100%;
+  margin: 0.75rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-style: normal;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.footer-legal p {
+  margin: 0;
+}
+
+.footer-legal p + p {
+  margin-top: 0.2rem;
+}
+
+.footer-legal a {
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.footer-legal a:hover {
+  color: #fff;
 }
 
 /* Reveal on scroll — only when JS opts in, so content stays visible without JS */

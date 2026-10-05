@@ -4,6 +4,10 @@ assets/mobile-audit/
 assets/photos/*-original.jpg
 assets/photos/original/
 
+# Private registry docs (do not publish)
+*VISUORD*.pdf
+DCUCRL*.pdf
+
 # Tooling
 scripts/
 __pycache__/

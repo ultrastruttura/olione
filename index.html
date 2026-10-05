@@ -77,6 +77,8 @@
             "image": "https://www.olioevopredore.it/assets/photos/prodotti.jpg",
             "email": "olioevopredore@gmail.com",
             "telephone": "+39-320-379-7518",
+            "vatID": "IT04694380165",
+            "taxID": "DCUCRL88M16I628V",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Via San Michele 34",
@@ -416,13 +418,22 @@
             <form
               class="contact-form reveal"
               style="--delay: 0.12s"
-              action="mailto:olioevopredore@gmail.com"
-              method="get"
-              enctype="text/plain"
+              action="https://formspree.io/f/YOUR_FORM_ID"
+              method="POST"
+              data-contact-form
             >
+              <input type="hidden" name="_subject" value="Richiesta Olione dal sito" />
+              <input
+                class="contact-honeypot"
+                type="text"
+                name="_gotcha"
+                tabindex="-1"
+                autocomplete="off"
+                aria-hidden="true"
+              />
               <label>
                 <span>Nome</span>
-                <input type="text" name="nome" autocomplete="name" required />
+                <input type="text" name="name" autocomplete="name" required />
               </label>
               <label>
                 <span>Email</span>
@@ -431,13 +442,14 @@
               <label>
                 <span>Messaggio</span>
                 <textarea
-                  name="messaggio"
+                  name="message"
                   rows="5"
                   required
                   placeholder="Es. vorrei ordinare 2 bottiglie da 0,5 l"
                 ></textarea>
               </label>
               <button class="btn btn-primary" type="submit">Invia richiesta</button>
+              <p class="contact-status" data-contact-status hidden role="status"></p>
             </form>
           </div>
         </section>
@@ -460,6 +472,22 @@
         <div class="footer-meta">
           <p>© <span data-year></span> Carlo Duci · Olivicoltura</p>
         </div>
+        <address class="footer-legal">
+          <p>
+            <strong>Duci Carlo</strong> — impresa individuale agricola
+          </p>
+          <p>
+            Sede: Via San Michele 34, 24060 Foresto Sparso (BG)
+          </p>
+          <p>
+            P. IVA 04694380165 · C.F. DCUCRL88M16I628V · REA BG-500556
+          </p>
+          <p>
+            Registro Imprese di Bergamo ·
+            PEC
+            <a href="mailto:carlo.duci@postecert.it">carlo.duci@postecert.it</a>
+          </p>
+        </address>
       </div>
     </footer>
 

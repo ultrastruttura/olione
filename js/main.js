@@ -74,4 +74,55 @@
   } else {
     reveals.forEach((el) => el.classList.add("is-in"));
   }
+
+  const contactForm = document.querySelector("[data-contact-form]");
+  const contactStatus = document.querySelector("[data-contact-status]");
+  if (contactForm && contactStatus) {
+    const setStatus = (message, state) => {
+      contactStatus.hidden = !message;
+      contactStatus.textContent = message;
+      contactStatus.dataset.state = state || "";
+    };
+
+    contactForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      if (contactForm.action.includes("YOUR_FORM_ID")) {
+        setStatus(
+          "Formspree non è ancora configurato: sostituisci YOUR_FORM_ID nell’action del form.",
+          "error"
+        );
+        return;
+      }
+
+      const submitBtn = contactForm.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
+      setStatus("Invio in corso…", "pending");
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: "POST",
+          body: new FormData(contactForm),
+          headers: { Accept: "application/json" },
+        });
+
+        if (response.ok) {
+          contactForm.reset();
+          setStatus("Richiesta inviata. Ti risponderemo al più presto.", "success");
+        } else {
+          setStatus(
+            "Invio non riuscito. Riprova o scrivi a olioevopredore@gmail.com.",
+            "error"
+          );
+        }
+      } catch {
+        setStatus(
+          "Connessione non disponibile. Riprova o usa email/telefono.",
+          "error"
+        );
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+      }
+    });
+  }
 })();
