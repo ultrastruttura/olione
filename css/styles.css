@@ -776,7 +776,7 @@ em {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 0.75rem;
-  align-items: end;
+  align-items: stretch;
 }
 
 .care-images-single {
@@ -793,13 +793,10 @@ em {
   aspect-ratio: 4 / 3;
 }
 
-.care-images:not(.care-images-single) img:first-child {
-  aspect-ratio: 5 / 4;
-}
-
+.care-images:not(.care-images-single) img:first-child,
 .care-images:not(.care-images-single) img:last-child {
   aspect-ratio: 3 / 4;
-  margin-bottom: 12%;
+  margin-bottom: 0;
 }
 
 @media (min-width: 900px) {
