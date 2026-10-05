@@ -1,4 +1,4 @@
-# Olione
+﻿# Olione
 
 > Olio extravergine di oliva del Sebino, prodotto a Predore sul Lago d'Iseo da Carlo Duci. Bottiglia da 0,5 l, vendita diretta dal produttore con spedizione in tutta Italia.
 
@@ -6,8 +6,8 @@ Olione nasce da olivicoltura sui terrazzamenti di Predore, nella sponda bergamas
 
 ## Pagine
 
-- [Sito](https://ultrastruttura.github.io/olione/): vetrina, prodotto, contatti e ordinazioni
-- [Scheda sintetica](https://ultrastruttura.github.io/olione/about.md): fatti chiave su prodotto, territorio e come ordinare
+- [Sito](https://www.olioevopredore.it/): vetrina, prodotto, contatti e ordinazioni
+- [Scheda sintetica](https://www.olioevopredore.it/about.md): fatti chiave su prodotto, territorio e come ordinare
 
 ## Contatti
 
@@ -19,5 +19,5 @@ Olione nasce da olivicoltura sui terrazzamenti di Predore, nella sponda bergamas
 
 ## Optional
 
-- [Sitemap](https://ultrastruttura.github.io/olione/sitemap.xml)
-- [Robots](https://ultrastruttura.github.io/olione/robots.txt)
+- [Sitemap](https://www.olioevopredore.it/sitemap.xml)
+- [Robots](https://www.olioevopredore.it/robots.txt)
