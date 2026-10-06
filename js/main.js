@@ -1,6 +1,14 @@
 (() => {
   document.documentElement.classList.add("js");
 
+  if (window.OlioneI18n) window.OlioneI18n.init();
+
+  const copy = (key) => {
+    const lang =
+      (window.OlioneI18n && document.documentElement.dataset.lang) || "it";
+    return window.OlioneI18n ? window.OlioneI18n.t(lang, key) : key;
+  };
+
   const header = document.querySelector("[data-header]");
   const hero = document.querySelector(".hero");
   const toggle = document.querySelector("[data-nav-toggle]");
@@ -87,17 +95,9 @@
     contactForm.addEventListener("submit", async (event) => {
       event.preventDefault();
 
-      if (contactForm.action.includes("YOUR_FORM_ID")) {
-        setStatus(
-          "Formspree non è ancora configurato: sostituisci YOUR_FORM_ID nell’action del form.",
-          "error"
-        );
-        return;
-      }
-
       const submitBtn = contactForm.querySelector('button[type="submit"]');
       if (submitBtn) submitBtn.disabled = true;
-      setStatus("Invio in corso…", "pending");
+      setStatus(copy("form.sending"), "pending");
 
       try {
         const response = await fetch(contactForm.action, {
@@ -108,18 +108,12 @@
 
         if (response.ok) {
           contactForm.reset();
-          setStatus("Richiesta inviata. Ti risponderemo al più presto.", "success");
+          setStatus(copy("form.success"), "success");
         } else {
-          setStatus(
-            "Invio non riuscito. Riprova o scrivi a olioevopredore@gmail.com.",
-            "error"
-          );
+          setStatus(copy("form.error"), "error");
         }
       } catch {
-        setStatus(
-          "Connessione non disponibile. Riprova o usa email/telefono.",
-          "error"
-        );
+        setStatus(copy("form.offline"), "error");
       } finally {
         if (submitBtn) submitBtn.disabled = false;
       }

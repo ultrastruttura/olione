@@ -77,6 +77,10 @@ h2 {
   max-width: 16ch;
 }
 
+html[lang="en"] h2 {
+  max-width: 22ch;
+}
+
 p {
   margin: 0 0 1.1rem;
 }
@@ -238,6 +242,55 @@ em {
   color: var(--gold);
 }
 
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-left: auto;
+  flex: 0 0 auto;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+}
+
+.lang a {
+  color: rgba(255, 255, 255, 0.62);
+  text-decoration: none;
+}
+
+.lang a:hover,
+.lang a.is-active {
+  color: #fff;
+}
+
+.lang-sep {
+  color: rgba(255, 255, 255, 0.38);
+  letter-spacing: 0;
+}
+
+.site-header.is-scrolled .lang a,
+.site-header.is-open .lang a {
+  color: rgba(17, 17, 17, 0.38);
+}
+
+.site-header.is-scrolled .lang a:hover,
+.site-header.is-scrolled .lang a.is-active,
+.site-header.is-open .lang a:hover,
+.site-header.is-open .lang a.is-active {
+  color: var(--ink);
+}
+
+.site-header.is-scrolled .lang-sep,
+.site-header.is-open .lang-sep {
+  color: rgba(17, 17, 17, 0.28);
+}
+
 .nav-toggle {
   width: 2.5rem;
   height: 2.5rem;
@@ -305,6 +358,11 @@ em {
 @media (min-width: 860px) {
   .nav {
     display: flex;
+    margin-left: auto;
+  }
+
+  .header-tools {
+    margin-left: 0;
   }
 
   .nav-toggle,

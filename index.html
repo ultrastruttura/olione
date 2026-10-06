@@ -10,6 +10,18 @@
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://www.olioevopredore.it/" />
+    <link rel="alternate" hreflang="it" href="https://www.olioevopredore.it/" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.olioevopredore.it/?lang=en"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.olioevopredore.it/"
+    />
+    <meta property="og:locale:alternate" content="en_GB" />
     <link
       rel="describedby"
       href="https://www.olioevopredore.it/llms.txt"
@@ -126,7 +138,7 @@
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+    <a class="skip-link" href="#contenuto" data-i18n="skip">Vai al contenuto</a>
 
     <header class="site-header" data-header>
       <div class="header-inner">
@@ -155,32 +167,40 @@
             aria-hidden="true"
           />
         </a>
-        <nav class="nav" aria-label="Principale">
-          <a href="#uliveto">L'uliveto</a>
-          <a href="#raccolta">La raccolta</a>
-          <a href="#frantoio">Al frantoio</a>
-          <a href="#prodotti">I nostri prodotti</a>
-          <a href="#contatti">Contatti</a>
+        <nav class="nav" data-i18n-aria="nav.label" aria-label="Principale">
+          <a href="#uliveto" data-i18n="nav.grove">L'uliveto</a>
+          <a href="#raccolta" data-i18n="nav.harvest">La raccolta</a>
+          <a href="#frantoio" data-i18n="nav.mill">Al frantoio</a>
+          <a href="#prodotti" data-i18n="nav.products">I nostri prodotti</a>
+          <a href="#contatti" data-i18n="nav.contact">Contatti</a>
         </nav>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" data-nav-toggle>
-          <span class="nav-toggle-line"></span>
-          <span class="sr-only">Menu</span>
-        </button>
+        <div class="header-tools">
+          <nav class="lang" data-i18n-aria="lang.label" aria-label="Lingua">
+            <a href="?lang=it" hreflang="it" lang="it" data-lang-switch="it">IT</a>
+            <span class="lang-sep" aria-hidden="true">·</span>
+            <a href="?lang=en" hreflang="en" lang="en" data-lang-switch="en">EN</a>
+          </nav>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" data-nav-toggle>
+            <span class="nav-toggle-line"></span>
+            <span class="sr-only" data-i18n="nav.menu">Menu</span>
+          </button>
+        </div>
       </div>
       <div class="mobile-nav" id="mobile-nav" data-mobile-nav hidden>
-        <a href="#uliveto">L'uliveto</a>
-        <a href="#raccolta">La raccolta</a>
-        <a href="#frantoio">Al frantoio</a>
-        <a href="#prodotti">I nostri prodotti</a>
-        <a href="#contatti">Contatti</a>
+        <a href="#uliveto" data-i18n="nav.grove">L'uliveto</a>
+        <a href="#raccolta" data-i18n="nav.harvest">La raccolta</a>
+        <a href="#frantoio" data-i18n="nav.mill">Al frantoio</a>
+        <a href="#prodotti" data-i18n="nav.products">I nostri prodotti</a>
+        <a href="#contatti" data-i18n="nav.contact">Contatti</a>
       </div>
     </header>
 
     <main id="top">
-      <section class="hero" aria-label="Home page">
+      <section class="hero" data-i18n-aria="hero.label" aria-label="Home page">
         <div class="hero-media" data-hero-media>
           <img
             src="assets/photos/hero-predore.jpg"
+            data-i18n-alt="hero.alt"
             alt="Predore affacciata sul Lago d'Iseo"
             width="2400"
             height="1242"
@@ -199,16 +219,16 @@
                 fetchpriority="high"
               />
             </p>
-            <p class="hero-place">Predore · Lago d'Iseo</p>
-            <h1 class="hero-kicker">Olio extravergine dal produttore</h1>
+            <p class="hero-place" data-i18n="hero.place">Predore · Lago d'Iseo</p>
+            <h1 class="hero-kicker" data-i18n="hero.kicker">Olio extravergine dal produttore</h1>
           </div>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#prodotti">I nostri prodotti</a>
-            <a class="btn btn-ghost" href="#contatti">Ordina</a>
+            <a class="btn btn-primary" href="#prodotti" data-i18n="hero.ctaProducts">I nostri prodotti</a>
+            <a class="btn btn-ghost" href="#contatti" data-i18n="hero.ctaOrder">Ordina</a>
           </div>
         </div>
         <div class="hero-scroll" aria-hidden="true">
-          <span>Scorri</span>
+          <span data-i18n="hero.scroll">Scorri</span>
         </div>
       </section>
 
@@ -216,14 +236,14 @@
         <section class="section territory" id="uliveto">
           <div class="section-grid">
             <div class="section-copy reveal">
-              <p class="eyebrow">L'uliveto</p>
-              <h2>Tra lago e pietra</h2>
-              <p>
+              <p class="eyebrow" data-i18n="grove.eyebrow">L'uliveto</p>
+              <h2 data-i18n="grove.title">Tra lago e pietra</h2>
+              <p data-i18n="grove.p1">
                 Coltiviamo olive su terrazzamenti sostenuti da antichi muri in pietra,
                 affacciati sul Lago d'Iseo, nel comune di Predore: circa un centinaio
                 di piante, di circa cinquant'anni.
               </p>
-              <p>
+              <p data-i18n="grove.p2">
                 Qui il microclima del Sebino — il Lago d'Iseo — accompagna la crescita
                 degli olivi: luce, pendenza e cura quotidiana del territorio danno
                 carattere al frutto e, di stagione in stagione, all'olio.
@@ -232,17 +252,18 @@
             <figure class="section-figure reveal" style="--delay: 0.12s">
               <img
                 src="assets/photos/uliveto.jpg"
+                data-i18n-alt="grove.alt"
                 alt="Predore e il Lago d'Iseo visti tra gli olivi"
                 width="1360"
                 height="1020"
                 loading="lazy"
               />
-              <figcaption>Predore · Lago d'Iseo</figcaption>
+              <figcaption data-i18n="grove.caption">Predore · Lago d'Iseo</figcaption>
             </figure>
           </div>
         </section>
 
-        <section class="strip reveal" aria-label="Promessa di marca">
+        <section class="strip reveal" data-i18n-aria="strip.label" aria-label="Promessa di marca">
           <img
             class="strip-art"
             src="assets/brand/illustration.png"
@@ -251,19 +272,19 @@
             height="720"
             loading="lazy"
           />
-          <p class="strip-script">Prodotto dalla cura del nostro territorio</p>
+          <p class="strip-script" data-i18n="strip.text">Prodotto dalla cura del nostro territorio</p>
         </section>
 
         <section class="section care" id="raccolta">
           <div class="care-band">
             <div class="care-copy reveal">
-              <p class="eyebrow">La raccolta</p>
-              <h2>Ottobre, ogni sera al frantoio</h2>
-              <p>
+              <p class="eyebrow" data-i18n="harvest.eyebrow">La raccolta</p>
+              <h2 data-i18n="harvest.title">Ottobre, ogni sera al frantoio</h2>
+              <p data-i18n="harvest.p1">
                 Raccogliamo le olive nelle prime settimane di ottobre, quando il frutto
                 è ancora fresco e pieno di aroma.
               </p>
-              <p>
+              <p data-i18n="harvest.p2">
                 Dopo la raccolta, ogni sera, le portiamo al frantoio per la frangitura
                 e l'estrazione dell'olio: tempi brevi, per custodire la qualità
                 dell'extravergine.
@@ -272,6 +293,7 @@
             <div class="care-images reveal" style="--delay: 0.1s">
               <img
                 src="assets/photos/raccolta.jpg"
+                data-i18n-alt="harvest.altNets"
                 alt="Reti di raccolta stese sotto gli olivi"
                 width="1600"
                 height="696"
@@ -279,6 +301,7 @@
               />
               <img
                 src="assets/photos/raccolta-olive.jpg"
+                data-i18n-alt="harvest.altOlives"
                 alt="Olive appena raccolte, pronte per il frantoio"
                 width="765"
                 height="1020"
@@ -290,9 +313,9 @@
 
         <section class="section product" id="frantoio">
           <div class="product-intro reveal">
-            <p class="eyebrow">Al frantoio</p>
-            <h2>Dalle olive all'olio</h2>
-            <p class="lead">
+            <p class="eyebrow" data-i18n="mill.eyebrow">Al frantoio</p>
+            <h2 data-i18n="mill.title">Dalle olive all'olio</h2>
+            <p class="lead" data-i18n="mill.lead">
               Un percorso meccanico, senza intermedi chimici: dalla pulizia del frutto
               fino alla filtrazione, ogni passaggio prepara un extravergine limpido
               e riconoscibile.
@@ -302,6 +325,7 @@
             <div class="product-visual product-visual-light">
               <img
                 src="assets/photos/frantoio.jpg"
+                data-i18n-alt="mill.alt"
                 alt="Olio appena estratto al frantoio"
                 width="1200"
                 height="1600"
@@ -309,11 +333,11 @@
               />
             </div>
             <ol class="process-list">
-              <li>Pulizia e lavaggio</li>
-              <li>Frangitura</li>
-              <li>Gramolatura</li>
-              <li>Estrazione</li>
-              <li>Separazione e filtrazione</li>
+              <li data-i18n="mill.step1">Pulizia e lavaggio</li>
+              <li data-i18n="mill.step2">Frangitura</li>
+              <li data-i18n="mill.step3">Gramolatura</li>
+              <li data-i18n="mill.step4">Estrazione</li>
+              <li data-i18n="mill.step5">Separazione e filtrazione</li>
             </ol>
           </div>
         </section>
@@ -321,29 +345,30 @@
         <section class="section territory" id="prodotti">
           <div class="section-grid section-grid-reverse">
             <div class="section-copy reveal">
-              <p class="eyebrow">I nostri prodotti</p>
-              <h2>Olio extravergine di oliva di qualità superiore</h2>
-              <p>
+              <p class="eyebrow" data-i18n="products.eyebrow">I nostri prodotti</p>
+              <h2 data-i18n="products.title">Olio extravergine di oliva di qualità superiore</h2>
+              <p data-i18n="products.p1">
                 Olione è un olio extravergine di oliva italiano di categoria superiore,
                 ottenuto direttamente dalle olive e unicamente mediante procedimenti
                 meccanici.
               </p>
-              <p>
+              <p data-i18n="products.p2">
                 In bottiglia da 0,5&nbsp;l, pensata per la tavola: un olio del Sebino
                 di piccola misura, legato ai terrazzamenti di Predore e alla
                 campagna di raccolta dell'anno.
               </p>
-              <p>
+              <p data-i18n="products.p3">
                 Lo produciamo noi e lo spediamo in tutta Italia. Scrivici per
                 ordinare la bottiglia della campagna in corso.
               </p>
               <p>
-                <a class="btn btn-primary" href="#contatti">Ordina Olione</a>
+                <a class="btn btn-primary" href="#contatti" data-i18n="products.cta">Ordina Olione</a>
               </p>
             </div>
             <figure class="section-figure section-figure-portrait reveal" style="--delay: 0.12s">
               <img
                 src="assets/photos/prodotti.jpg"
+                data-i18n-alt="products.alt"
                 alt="Bottiglia Olione di olio extravergine di oliva da Predore, Lago d'Iseo"
                 width="820"
                 height="1152"
@@ -356,28 +381,28 @@
         <section class="section contact" id="contatti">
           <div class="contact-inner">
             <div class="contact-copy reveal">
-              <p class="eyebrow">Contatti</p>
-              <h2>Ordina dal produttore</h2>
-              <p>
+              <p class="eyebrow" data-i18n="contact.eyebrow">Contatti</p>
+              <h2 data-i18n="contact.title">Ordina dal produttore</h2>
+              <p data-i18n="contact.intro">
                 Per ordinare Olione da Carlo Duci, sapere la disponibilità della
                 campagna o organizzare un ritiro: siamo a Predore, sul Lago
                 d'Iseo, e spediamo in tutta Italia.
               </p>
               <dl class="contact-details">
                 <div>
-                  <dt>Email</dt>
+                  <dt data-i18n="contact.email">Email</dt>
                   <dd>
                     <a href="mailto:olioevopredore@gmail.com">olioevopredore@gmail.com</a>
                   </dd>
                 </div>
                 <div>
-                  <dt>Telefono</dt>
+                  <dt data-i18n="contact.phone">Telefono</dt>
                   <dd>
                     <a href="tel:+393203797518">+39 320 379 7518</a>
                   </dd>
                 </div>
                 <div>
-                  <dt>Social</dt>
+                  <dt data-i18n="contact.social">Social</dt>
                   <dd class="social-links">
                     <a
                       class="social-link"
@@ -410,7 +435,7 @@
                   </dd>
                 </div>
                 <div>
-                  <dt>Indirizzo</dt>
+                  <dt data-i18n="contact.address">Indirizzo</dt>
                   <dd>Via San Michele 34, 24060 Foresto Sparso (BG)</dd>
                 </div>
               </dl>
@@ -432,23 +457,24 @@
                 aria-hidden="true"
               />
               <label>
-                <span>Nome</span>
+                <span data-i18n="form.name">Nome</span>
                 <input type="text" name="name" autocomplete="name" required />
               </label>
               <label>
-                <span>Email</span>
+                <span data-i18n="form.email">Email</span>
                 <input type="email" name="email" autocomplete="email" required />
               </label>
               <label>
-                <span>Messaggio</span>
+                <span data-i18n="form.message">Messaggio</span>
                 <textarea
                   name="message"
                   rows="5"
                   required
+                  data-i18n-placeholder="form.placeholder"
                   placeholder="Es. vorrei ordinare 2 bottiglie da 0,5 l"
                 ></textarea>
               </label>
-              <button class="btn btn-primary" type="submit">Invia richiesta</button>
+              <button class="btn btn-primary" type="submit" data-i18n="form.submit">Invia richiesta</button>
               <p class="contact-status" data-contact-status hidden role="status"></p>
             </form>
           </div>
@@ -466,23 +492,25 @@
             width="220"
             height="48"
           />
-          <p>Predore · Bergamo · Lago d'Iseo</p>
-          <p>Olio extravergine di oliva · Spedizione in Italia</p>
+          <p data-i18n="footer.place">Predore · Bergamo · Lago d'Iseo</p>
+          <p data-i18n="footer.line">Olio extravergine di oliva · Spedizione in Italia</p>
         </div>
         <div class="footer-meta">
-          <p>© <span data-year></span> Carlo Duci · Olivicoltura</p>
+          <p>© <span data-year></span> <span data-i18n="footer.copyright">Carlo Duci · Olivicoltura</span></p>
           <address class="footer-legal">
             <p>
-              <strong>Duci Carlo</strong> — impresa individuale agricola
+              <strong>Duci Carlo</strong> —
+              <span data-i18n="legal.kind">impresa individuale agricola</span>
             </p>
             <p>
-              Sede: Via San Michele 34, 24060 Foresto Sparso (BG)
+              <span data-i18n="legal.seat">Sede</span>: Via San Michele 34, 24060 Foresto Sparso (BG)
             </p>
             <p>
               P. IVA 04694380165 · C.F. DCUCRL88M16I628V · REA BG-500556
             </p>
             <p>
-              Registro Imprese di Bergamo ·
+              <span data-i18n="legal.register">Registro Imprese di Bergamo</span>
+              ·
               PEC
               <a href="mailto:carlo.duci@postecert.it">carlo.duci@postecert.it</a>
             </p>
@@ -491,6 +519,7 @@
       </div>
     </footer>
 
+    <script src="js/i18n.js" defer></script>
     <script src="js/main.js" defer></script>
   </body>
 </html>
