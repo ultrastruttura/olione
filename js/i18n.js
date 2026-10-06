@@ -19,7 +19,7 @@
       "nav.menu": "Menu",
       "lang.label": "Lingua",
       "hero.label": "Home page",
-      "hero.alt": "Predore affacciata sul Lago d'Iseo",
+      "hero.alt": "Predore sul Lago d'Iseo, sponda bergamasca del Sebino",
       "hero.place": "Predore · Lago d'Iseo",
       "hero.kicker": "Olio extravergine dal produttore",
       "hero.ctaProducts": "I nostri prodotti",
@@ -31,8 +31,8 @@
         "Coltiviamo olive su terrazzamenti sostenuti da antichi muri in pietra, affacciati sul Lago d'Iseo, nel comune di Predore: circa un centinaio di piante, di circa cinquant'anni.",
       "grove.p2":
         "Qui il microclima del Sebino — il Lago d'Iseo — accompagna la crescita degli olivi: luce, pendenza e cura quotidiana del territorio danno carattere al frutto e, di stagione in stagione, all'olio.",
-      "grove.alt": "Predore e il Lago d'Iseo visti tra gli olivi",
-      "grove.caption": "Predore · Lago d'Iseo",
+      "grove.alt": "Reti da raccolta stese nell'uliveto di Predore sul Lago d'Iseo",
+      "grove.caption": "Predore - Il nostro Uliveto",
       "strip.label": "Promessa di marca",
       "strip.text": "Prodotto dalla cura del nostro territorio",
       "harvest.eyebrow": "La raccolta",
@@ -41,13 +41,13 @@
         "Raccogliamo le olive nelle prime settimane di ottobre, quando il frutto è ancora fresco e pieno di aroma.",
       "harvest.p2":
         "Dopo la raccolta, ogni sera, le portiamo al frantoio per la frangitura e l'estrazione dell'olio: tempi brevi, per custodire la qualità dell'extravergine.",
-      "harvest.altNets": "Reti di raccolta stese sotto gli olivi",
-      "harvest.altOlives": "Olive appena raccolte, pronte per il frantoio",
+      "harvest.altWork": "Raccolta delle olive a Predore: reti, cassette e abbacco in uliveto",
+      "harvest.altCrates": "Cassette di olive appena raccolte sull'uliveto terrazzato di Predore",
       "mill.eyebrow": "Al frantoio",
       "mill.title": "Dalle olive all'olio",
       "mill.lead":
         "Un percorso meccanico, senza intermedi chimici: dalla pulizia del frutto fino alla filtrazione, ogni passaggio prepara un extravergine limpido e riconoscibile.",
-      "mill.alt": "Olio appena estratto al frantoio",
+      "mill.alt": "Olio extravergine appena estratto al frantoio",
       "mill.step1": "Pulizia e lavaggio",
       "mill.step2": "Frangitura",
       "mill.step3": "Gramolatura",
@@ -57,13 +57,15 @@
       "products.title": "Olio extravergine di oliva di qualità superiore",
       "products.p1":
         "Olione è un olio extravergine di oliva italiano di categoria superiore, ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici.",
+      "products.slowfood":
+        "Il nostro olio è segnalato dalla “Guida agli Extra Vergini” di Slow Food Editore.",
       "products.p2":
         "In bottiglia da 0,5 l, pensata per la tavola: un olio del Sebino di piccola misura, legato ai terrazzamenti di Predore e alla campagna di raccolta dell'anno.",
       "products.p3":
         "Lo produciamo noi e lo spediamo in tutta Italia. Scrivici per ordinare la bottiglia della campagna in corso.",
       "products.cta": "Ordina Olione",
       "products.alt":
-        "Bottiglia Olione di olio extravergine di oliva da Predore, Lago d'Iseo",
+        "Bottiglia Olione di olio extravergine di oliva italiano",
       "contact.eyebrow": "Contatti",
       "contact.title": "Ordina dal produttore",
       "contact.intro":
@@ -109,7 +111,7 @@
       "nav.menu": "Menu",
       "lang.label": "Language",
       "hero.label": "Home",
-      "hero.alt": "Predore overlooking Lake Iseo",
+      "hero.alt": "Predore on Lake Iseo, Bergamo shore of the Sebino",
       "hero.place": "Predore · Lake Iseo",
       "hero.kicker": "Extra virgin olive oil from the producer",
       "hero.ctaProducts": "Our products",
@@ -121,8 +123,8 @@
         "We grow olives on terraces held by old stone walls, overlooking Lake Iseo, in Predore: about one hundred trees, around fifty years old.",
       "grove.p2":
         "Here the Sebino microclimate — Lake Iseo — accompanies the olives: light, slope and daily care of the land give character to the fruit and, season after season, to the oil.",
-      "grove.alt": "Predore and Lake Iseo seen through the olive trees",
-      "grove.caption": "Predore · Lake Iseo",
+      "grove.alt": "Harvest nets laid out in the Predore olive grove on Lake Iseo",
+      "grove.caption": "Predore - Our olive grove",
       "strip.label": "Brand promise",
       "strip.text": "Made through the care of our land",
       "harvest.eyebrow": "Harvest",
@@ -131,13 +133,13 @@
         "We pick the olives in the first weeks of October, when the fruit is still fresh and full of aroma.",
       "harvest.p2":
         "After harvest, each evening, we take them to the mill for crushing and extraction: short times, to protect extra virgin quality.",
-      "harvest.altNets": "Harvest nets spread beneath the olive trees",
-      "harvest.altOlives": "Freshly picked olives, ready for the mill",
+      "harvest.altWork": "Olive harvest in Predore: nets, crates and pole harvester in the grove",
+      "harvest.altCrates": "Crates of freshly picked olives on the terraced grove in Predore",
       "mill.eyebrow": "The mill",
       "mill.title": "From olives to oil",
       "mill.lead":
         "A mechanical process, with no chemical intermediaries: from washing the fruit to filtration, each step prepares a clear, recognisable extra virgin oil.",
-      "mill.alt": "Oil just extracted at the mill",
+      "mill.alt": "Extra virgin olive oil just extracted at the mill",
       "mill.step1": "Cleaning and washing",
       "mill.step2": "Crushing",
       "mill.step3": "Malaxing",
@@ -147,13 +149,15 @@
       "products.title": "Superior-category extra virgin olive oil",
       "products.p1":
         "Olione is Italian extra virgin olive oil of superior category, obtained directly from olives and solely by mechanical means.",
+      "products.slowfood":
+        "Our oil is listed in Slow Food Editore’s “Guida agli Extra Vergini”.",
       "products.p2":
         "In a 0.5 l bottle, made for the table: a small-batch Sebino oil, tied to Predore’s terraces and to that year’s harvest.",
       "products.p3":
         "We produce it ourselves and ship throughout Italy. Write to us to order this season’s bottle.",
       "products.cta": "Order Olione",
       "products.alt":
-        "Olione extra virgin olive oil bottle from Predore, Lake Iseo",
+        "Olione bottle of Italian extra virgin olive oil",
       "contact.eyebrow": "Contact",
       "contact.title": "Order from the producer",
       "contact.intro":

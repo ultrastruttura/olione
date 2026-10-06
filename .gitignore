@@ -4,9 +4,13 @@ assets/mobile-audit/
 assets/photos/*-original.jpg
 assets/photos/original/
 
-# Private registry docs (do not publish)
-*VISUORD*.pdf
-DCUCRL*.pdf
+# Client source photos (imported into assets/photos)
+/[1-4].HEIC
+/[1-4].heic
+/[1-4].jpg
+/[1-4].jpeg
+/[1-4].JPEG
+/[1-4].JPG
 
 # Tooling
 scripts/
