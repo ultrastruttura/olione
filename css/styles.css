@@ -535,6 +535,7 @@ html.js .logo-img-light {
   display: block;
   margin: 0;
   height: auto;
+  will-change: opacity, transform;
 }
 
 .hero-sprig {

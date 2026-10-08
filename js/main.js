@@ -39,16 +39,14 @@
     const progress = max > 0 ? window.scrollY / max : 0;
     document.documentElement.style.setProperty("--scroll", String(progress));
 
-    // Sprig → olive: short, late window while the brand is still visible.
+    // Sprig → olive from first scroll; smooth but decisive over ~30% of hero.
     let heroExit = 0;
     if (hero) {
       const rect = hero.getBoundingClientRect();
-      const start = rect.height * 0.48;
-      const end = rect.height * 0.56;
-      heroExit = Math.min(
-        1,
-        Math.max(0, (-rect.top - start) / Math.max(end - start, 1))
-      );
+      const range = Math.max(rect.height * 0.3, 1);
+      const t = Math.min(1, Math.max(0, -rect.top / range));
+      // smoothstep: soft edges, clearer change in the middle
+      heroExit = t * t * (3 - 2 * t);
     }
     document.documentElement.style.setProperty(
       "--hero-exit",
