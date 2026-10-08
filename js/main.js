@@ -39,12 +39,15 @@
     const progress = max > 0 ? window.scrollY / max : 0;
     document.documentElement.style.setProperty("--scroll", String(progress));
 
-    // Sprig → olive morph over the first ~14% of the hero height.
+    // Sprig → olive when the hero is almost scrolled off-screen.
     let heroExit = 0;
     if (hero) {
       const rect = hero.getBoundingClientRect();
-      const range = Math.max(rect.height * 0.14, 1);
-      heroExit = Math.min(1, Math.max(0, -rect.top / range));
+      const headerH = header ? header.offsetHeight : 0;
+      // 0 while hero mostly in view; 1 when hero bottom reaches the header.
+      const start = rect.height * 0.55;
+      const end = Math.max(rect.height - headerH, start + 1);
+      heroExit = Math.min(1, Math.max(0, (-rect.top - start) / (end - start)));
     }
     document.documentElement.style.setProperty(
       "--hero-exit",

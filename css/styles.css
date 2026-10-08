@@ -538,7 +538,7 @@ html.js .logo-img-light {
 }
 
 .hero-sprig {
-  width: 220%;
+  width: 175%;
   max-width: none;
   opacity: calc(0.92 * (1 - var(--hero-exit, 0)));
   transform: scale(calc(1 - var(--hero-exit, 0) * 0.55)) rotate(-8deg);
@@ -549,7 +549,6 @@ html.js .logo-img-light {
   width: 100%;
   opacity: var(--hero-exit, 0);
   transform: scale(calc(0.55 + var(--hero-exit, 0) * 0.45));
-  filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.3));
 }
 
 .hero-wordmark {
