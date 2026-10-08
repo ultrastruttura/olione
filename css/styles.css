@@ -208,11 +208,17 @@ em {
   display: block;
   transform-origin: center;
   transform: rotate(calc(var(--scroll, 0) * 180deg));
+  transition: opacity 0.3s var(--ease);
 }
 
-/* With JS: olive takes over as the hero sprig exits. Without JS: always visible. */
+/* Header lockup (olive + wordmark) only after leaving the hero. */
 html.js .logo-mark {
-  opacity: var(--hero-exit, 0);
+  opacity: 0;
+}
+
+html.js .site-header.is-scrolled .logo-mark,
+html.js .site-header.is-open .logo-mark {
+  opacity: 1;
 }
 
 .logo-img {
@@ -220,6 +226,11 @@ html.js .logo-mark {
   height: auto;
   display: block;
   transition: opacity 0.3s var(--ease);
+}
+
+/* Hide header wordmark over the hero; show it only after leaving the big OLIONE. */
+html.js .logo-img-light {
+  opacity: 0;
 }
 
 .logo-img-dark {
@@ -499,38 +510,56 @@ html.js .logo-mark {
   max-width: min(34rem, 100%);
 }
 
+/* Scaled header lockup: mark 1.2 / gap 0.55 / total 8.5 → wordmark stays ~22rem */
 .hero-brand {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: calc(100% * 0.55 / 8.5);
   margin: 0 0 0.85rem;
-  width: min(100%, 22rem);
+  width: min(100%, 27.7rem);
   animation: rise 1s var(--ease) both;
 }
 
-.hero-brand img:not(.hero-sprig) {
+.hero-mark {
+  position: relative;
+  flex: 0 0 calc(100% * 1.2 / 8.5);
+  width: calc(100% * 1.2 / 8.5);
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.hero-sprig,
+.hero-olive {
+  grid-area: 1 / 1;
+  display: block;
+  margin: 0;
+  height: auto;
+}
+
+.hero-sprig {
+  width: 220%;
+  max-width: none;
+  opacity: calc(0.92 * (1 - var(--hero-exit, 0)));
+  transform: scale(calc(1 - var(--hero-exit, 0) * 0.55)) rotate(-8deg);
+  filter: drop-shadow(0 2px 16px rgba(0, 0, 0, 0.35));
+}
+
+.hero-olive {
   width: 100%;
+  opacity: var(--hero-exit, 0);
+  transform: scale(calc(0.55 + var(--hero-exit, 0) * 0.45));
+  filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.3));
+}
+
+.hero-wordmark {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 0;
   height: auto;
   display: block;
   margin: 0;
   filter: drop-shadow(0 2px 28px rgba(0, 0, 0, 0.28));
-}
-
-.hero-sprig {
-  position: absolute;
-  left: calc(100% - 0.35rem);
-  bottom: 55%;
-  width: clamp(2.75rem, 8vw, 4.25rem);
-  height: auto;
-  display: block;
-  margin: 0;
-  pointer-events: none;
-  opacity: calc(0.88 * (1 - var(--hero-exit, 0)));
-  transform: translate3d(
-      calc(var(--hero-exit, 0) * -0.35rem),
-      calc(var(--hero-exit, 0) * -0.85rem),
-      0
-    )
-    rotate(-8deg);
-  filter: drop-shadow(0 2px 16px rgba(0, 0, 0, 0.35));
 }
 
 .hero-place {
@@ -584,7 +613,14 @@ html.js .logo-mark {
   }
 
   .hero-brand {
-    width: min(100%, 18rem);
+    /* Match mobile header lockup: 1.1 / 0.45 / 7.25 */
+    gap: calc(100% * 0.45 / 7.25);
+    width: min(100%, 22.7rem);
+  }
+
+  .hero-mark {
+    flex-basis: calc(100% * 1.1 / 7.25);
+    width: calc(100% * 1.1 / 7.25);
   }
 
   .logo {
@@ -609,13 +645,6 @@ html.js .logo-mark {
     display: none;
   }
 
-  .hero-sprig {
-    right: -0.15rem;
-    left: auto;
-    bottom: 68%;
-    width: 2.6rem;
-  }
-
   .hero-place {
     letter-spacing: 0.06em;
   }
@@ -627,11 +656,7 @@ html.js .logo-mark {
 
 @media (max-width: 360px) {
   .hero-brand {
-    width: min(100%, 16rem);
-  }
-
-  .hero-sprig {
-    display: none;
+    width: min(100%, 20rem);
   }
 
   .hero-place {
@@ -1200,6 +1225,7 @@ html.js .reveal.is-in {
   .hero-actions,
   .hero-scroll,
   .hero-sprig,
+  .hero-olive,
   .logo-mark,
   html.js .logo-mark,
   html.js .reveal {
@@ -1207,5 +1233,9 @@ html.js .reveal.is-in {
     transition: none !important;
     opacity: 1 !important;
     transform: none !important;
+  }
+
+  .hero-olive {
+    opacity: 0 !important;
   }
 }
