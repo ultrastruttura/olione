@@ -558,7 +558,9 @@ html.js .logo-img-light {
   height: auto;
   display: block;
   margin: 0;
-  filter: drop-shadow(0 2px 28px rgba(0, 0, 0, 0.28));
+  /* Soft warm ivory — not full gold */
+  filter: drop-shadow(0 2px 28px rgba(0, 0, 0, 0.28))
+    sepia(0.28) saturate(0.55) brightness(1.06);
 }
 
 .hero-place {

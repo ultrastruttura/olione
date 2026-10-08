@@ -39,12 +39,12 @@
     const progress = max > 0 ? window.scrollY / max : 0;
     document.documentElement.style.setProperty("--scroll", String(progress));
 
-    // Sprig → olive late in the hero, but while the brand is still on screen.
+    // Sprig → olive: short, late window while the brand is still visible.
     let heroExit = 0;
     if (hero) {
       const rect = hero.getBoundingClientRect();
-      const start = rect.height * 0.4;
-      const end = rect.height * 0.62;
+      const start = rect.height * 0.48;
+      const end = rect.height * 0.56;
       heroExit = Math.min(
         1,
         Math.max(0, (-rect.top - start) / Math.max(end - start, 1))
