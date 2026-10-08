@@ -187,6 +187,15 @@
           <div class="hero-copy">
             <p class="hero-brand">
               <img
+                class="hero-sprig"
+                src="assets/brand/rametto.png"
+                alt=""
+                width="306"
+                height="287"
+                aria-hidden="true"
+                data-hero-sprig
+              />
+              <img
                 src="assets/brand/logo-white.png"
                 alt="Olione"
                 width="780"
@@ -327,8 +336,14 @@
                 ottenuto direttamente dalle olive e unicamente mediante procedimenti
                 meccanici.
               </p>
-              <p data-i18n="products.slowfood">
-                Il nostro olio è segnalato dalla “Guida agli Extra Vergini” di Slow Food Editore.
+              <p data-i18n-html="products.slowfood">
+                Il nostro olio è segnalato dalla “Guida agli Extra Vergini” di
+                <a
+                  href="https://www.slowfoodeditore.it/it/guide-slow/guida-agli-extravergini-2026-1162.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><strong>Slow Food Editore</strong></a
+                >.
               </p>
               <p data-i18n="products.p2">
                 In bottiglia da 0,5&nbsp;l, pensata per la tavola: un olio del Sebino
@@ -463,13 +478,23 @@
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          <img
-            class="footer-logo"
-            src="assets/brand/logo-white-sm.png"
-            alt="Olione"
-            width="220"
-            height="48"
-          />
+          <div class="footer-lockup">
+            <img
+              class="footer-mark"
+              src="assets/brand/oliva.png"
+              alt=""
+              width="28"
+              height="28"
+              aria-hidden="true"
+            />
+            <img
+              class="footer-logo"
+              src="assets/brand/logo-white-sm.png"
+              alt="Olione"
+              width="220"
+              height="48"
+            />
+          </div>
           <p data-i18n="footer.place">Predore · Bergamo · Lago d'Iseo</p>
           <p data-i18n="footer.line">Olio extravergine di oliva · Spedizione in Italia</p>
         </div>

@@ -210,6 +210,11 @@ em {
   transform: rotate(calc(var(--scroll, 0) * 180deg));
 }
 
+/* With JS: olive takes over as the hero sprig exits. Without JS: always visible. */
+html.js .logo-mark {
+  opacity: var(--hero-exit, 0);
+}
+
 .logo-img {
   width: calc(100% - 1.75rem);
   height: auto;
@@ -495,17 +500,37 @@ em {
 }
 
 .hero-brand {
+  position: relative;
   margin: 0 0 0.85rem;
   width: min(100%, 22rem);
   animation: rise 1s var(--ease) both;
 }
 
-.hero-brand img {
+.hero-brand img:not(.hero-sprig) {
   width: 100%;
   height: auto;
   display: block;
   margin: 0;
   filter: drop-shadow(0 2px 28px rgba(0, 0, 0, 0.28));
+}
+
+.hero-sprig {
+  position: absolute;
+  left: calc(100% - 0.35rem);
+  bottom: 55%;
+  width: clamp(2.75rem, 8vw, 4.25rem);
+  height: auto;
+  display: block;
+  margin: 0;
+  pointer-events: none;
+  opacity: calc(0.88 * (1 - var(--hero-exit, 0)));
+  transform: translate3d(
+      calc(var(--hero-exit, 0) * -0.35rem),
+      calc(var(--hero-exit, 0) * -0.85rem),
+      0
+    )
+    rotate(-8deg);
+  filter: drop-shadow(0 2px 16px rgba(0, 0, 0, 0.35));
 }
 
 .hero-place {
@@ -584,6 +609,13 @@ em {
     display: none;
   }
 
+  .hero-sprig {
+    right: -0.15rem;
+    left: auto;
+    bottom: 68%;
+    width: 2.6rem;
+  }
+
   .hero-place {
     letter-spacing: 0.06em;
   }
@@ -596,6 +628,10 @@ em {
 @media (max-width: 360px) {
   .hero-brand {
     width: min(100%, 16rem);
+  }
+
+  .hero-sprig {
+    display: none;
   }
 
   .hero-place {
@@ -1071,11 +1107,24 @@ em {
   gap: 1.5rem;
 }
 
+.footer-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+
+.footer-mark {
+  width: 1.15rem;
+  height: auto;
+  flex: 0 0 auto;
+  display: block;
+}
+
 .footer-logo {
   display: block;
   width: 7.5rem;
   height: auto;
-  margin-bottom: 0.85rem;
 }
 
 .footer-brand p,
@@ -1150,7 +1199,9 @@ html.js .reveal.is-in {
   .hero-kicker,
   .hero-actions,
   .hero-scroll,
+  .hero-sprig,
   .logo-mark,
+  html.js .logo-mark,
   html.js .reveal {
     animation: none !important;
     transition: none !important;

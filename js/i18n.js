@@ -58,7 +58,7 @@
       "products.p1":
         "Olione è un olio extravergine di oliva italiano di categoria superiore, ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici.",
       "products.slowfood":
-        "Il nostro olio è segnalato dalla “Guida agli Extra Vergini” di Slow Food Editore.",
+        'Il nostro olio è segnalato dalla “Guida agli Extra Vergini” di <a href="https://www.slowfoodeditore.it/it/guide-slow/guida-agli-extravergini-2026-1162.html" target="_blank" rel="noopener noreferrer"><strong>Slow Food Editore</strong></a>.',
       "products.p2":
         "In bottiglia da 0,5 l, pensata per la tavola: un olio del Sebino di piccola misura, legato ai terrazzamenti di Predore e alla campagna di raccolta dell'anno.",
       "products.p3":
@@ -150,7 +150,7 @@
       "products.p1":
         "Olione is Italian extra virgin olive oil of superior category, obtained directly from olives and solely by mechanical means.",
       "products.slowfood":
-        "Our oil is listed in Slow Food Editore’s “Guida agli Extra Vergini”.",
+        'Our oil is listed in <a href="https://www.slowfoodeditore.it/it/guide-slow/guida-agli-extravergini-2026-1162.html" target="_blank" rel="noopener noreferrer"><strong>Slow Food Editore</strong></a>’s “Guida agli Extra Vergini”.',
       "products.p2":
         "In a 0.5 l bottle, made for the table: a small-batch Sebino oil, tied to Predore’s terraces and to that year’s harvest.",
       "products.p3":

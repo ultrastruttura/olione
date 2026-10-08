@@ -33,10 +33,23 @@
   const updateScrollProgress = () => {
     scrollRaf = 0;
     if (reduceMotion.matches) return;
+
     const max =
       document.documentElement.scrollHeight - window.innerHeight;
     const progress = max > 0 ? window.scrollY / max : 0;
     document.documentElement.style.setProperty("--scroll", String(progress));
+
+    // Fade the hero sprig out over the first ~35% of the hero height.
+    let heroExit = 0;
+    if (hero) {
+      const rect = hero.getBoundingClientRect();
+      const range = Math.max(rect.height * 0.35, 1);
+      heroExit = Math.min(1, Math.max(0, -rect.top / range));
+    }
+    document.documentElement.style.setProperty(
+      "--hero-exit",
+      String(heroExit)
+    );
   };
 
   const onScroll = () => {
