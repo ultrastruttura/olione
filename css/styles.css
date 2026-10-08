@@ -206,6 +206,8 @@ em {
   height: auto;
   flex: 0 0 auto;
   display: block;
+  transform-origin: center;
+  transform: rotate(calc(var(--scroll, 0) * 180deg));
 }
 
 .logo-img {
@@ -1148,6 +1150,7 @@ html.js .reveal.is-in {
   .hero-kicker,
   .hero-actions,
   .hero-scroll,
+  .logo-mark,
   html.js .reveal {
     animation: none !important;
     transition: none !important;

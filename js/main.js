@@ -27,13 +27,30 @@
     document.body.classList.toggle("nav-open", open);
   };
 
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let scrollRaf = 0;
+
+  const updateScrollProgress = () => {
+    scrollRaf = 0;
+    if (reduceMotion.matches) return;
+    const max =
+      document.documentElement.scrollHeight - window.innerHeight;
+    const progress = max > 0 ? window.scrollY / max : 0;
+    document.documentElement.style.setProperty("--scroll", String(progress));
+  };
+
   const onScroll = () => {
-    if (!header) return;
-    // Stay transparent over the hero; solid only after leaving the photo.
-    const pastHero = hero
-      ? hero.getBoundingClientRect().bottom <= header.offsetHeight
-      : window.scrollY > 24;
-    header.classList.toggle("is-scrolled", pastHero);
+    if (header) {
+      // Stay transparent over the hero; solid only after leaving the photo.
+      const pastHero = hero
+        ? hero.getBoundingClientRect().bottom <= header.offsetHeight
+        : window.scrollY > 24;
+      header.classList.toggle("is-scrolled", pastHero);
+    }
+
+    if (!scrollRaf) {
+      scrollRaf = requestAnimationFrame(updateScrollProgress);
+    }
   };
 
   onScroll();
